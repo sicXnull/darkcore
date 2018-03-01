@@ -18,22 +18,22 @@ exports.livenet = {
   hkeyPublicVersion: 0x02fe52f8,
   hkeyPrivateVersion: 0x02fe52cc,
   genesisBlock: {
-    hash: hexReverse('00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6'),
-    merkle_root: hexReverse('e0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7'),
+    hash: hexReverse('0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818'),
+    merkle_root: hexReverse('1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b'),
     height: 0,
-    nonce: 28917698,
+    nonce: 2402015,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1390095618,
-    bits: 504365040,
+    timestamp: 1454124731,
+    bits: 0x1e0ffff0,
   },
   dnsSeeds: [
-    'dnsseed.darkcoin.io',
-    'dnsseed.darkcoin.qa',
-    'dnsseed.masternode.io',
-    'dnsseed.dashpay.io'
+    'fuzzbawls.pw',
+    'coin-server.com',
+    's3v3nh4cks.ddns.net',
+    'fuzzbawls.pw'
   ],
-  defaultClientPort: 9999
+  defaultClientPort: 51472
 };
 
 exports.mainnet = exports.livenet;
@@ -47,19 +47,19 @@ exports.testnet = {
   hkeyPublicVersion: 0x3a8061a0,
   hkeyPrivateVersion: 0x3a805837,
   genesisBlock: {
-    hash: hexReverse('00000bafbc94add76cb75e2ec92894837288a481e5c005f6563d91623bf8bc2c'),
-    merkle_root: hexReverse('e0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7'),
+    hash: hexReverse('0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818'),
+    merkle_root: hexReverse('1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b'),
     height: 0,
-    nonce: 3861367235,
+    nonce: 2402015,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1390666206,
-    bits: 504365040,
+    timestamp: 1454124731,
+    bits: 0x1e0ffff0,
   },
   dnsSeeds: [
-    'testnet-seed.darkcoin.io',
-    'testnet-seed.darkcoin.qa',
-    'test.dnsseed.masternode.io'
+    '88.198.192.110',
+    'pivx-testnet.seed.fuzzbawls.pw',
+    'pivx-testnet.seed2.fuzzbawls.pw'
   ],
-  defaultClientPort: 19999
+  defaultClientPort: 51474
 };

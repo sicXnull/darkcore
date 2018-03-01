@@ -3,9 +3,9 @@ Darkcore
 
 [![Build Status](https://travis-ci.org/UdjinM6/darkcore.svg?branch=master)](https://travis-ci.org/UdjinM6/darkcore)
 
-A pure, powerful core for your Darkcoin project.
+A pure, powerful core for your PIVX project.
 
-Darkcore is a complete, native interface to the Darkcoin network, and provides the core functionality needed to develop apps for Darkcoin.
+Darkcore is a complete, native interface to the Darkcoin network that was modified to work with the PIVX network for our purposes, and provides the core functionality needed to develop apps for PIVX.
 
 Forked from Bitcore ([https://github.com/bitpay/bitcore](https://github.com/bitpay/bitcore)) and therefore has fully compatible API.
 
@@ -13,6 +13,8 @@ Forked from Bitcore ([https://github.com/bitpay/bitcore](https://github.com/bitp
 #License
 
 **Code released under [the MIT license](https://github.com/UdjinM6/darkcore/blob/master/LICENSE).**
+
+Copyright (c) 2018 Genitrust, Inc.
 
 Copyright (c) 2014 UdjinM6
 
